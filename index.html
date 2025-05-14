@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Name randomizer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/mammoth/mammoth.browser.min.js"></script>
+  </head>
+  <body>
+    <h1>
+      Name randomizer
+    </h1>
+    <p>Upload your document to start grouping</p>
+    <input type="file" name="file" id="docxFile" />
+    <div class="output">
+      <h4>Group A</h4>
+      <table class="group-a" border="1">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Matric No</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+      <h4>Group B</h4>
+      <table class="group-b" border="1">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Matric No</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
